@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+.boton-01 {
+  background-image: linear-gradient(to left, violet, yellow);
+  display: block;
+  width: 150px;
+  margin: 20px 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.boton-02 {
+  background-image: radial-gradient(ellipse at left 350px, white, black);
+  display: block;
+  width: 150px;
+  margin: 20px 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: #D1E500;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-01 {
+  background: #34b19d;
+  background: linear-gradient(34deg, #34b19d 8%, #cce9ce 56%);
+  margin: 55px;
+  padding: 35px;
+  border-radius: 5px;
+}
+.container-01 h1 {
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container-01 p {
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.container-02 {
+  background-color: blue;
+  height: 250px;
+}
+.container-02 h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+.container-02 .boton-01 {
+  transform: translate(250px, 100px);
+}
+
+.container-03 {
+  margin-top: 45px;
+  background-color: black;
+  height: 250px;
+}
+.container-03 h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+.container-03 .boton-01 {
+  transform: rotate(20deg) translateX(250px);
+  transition: 1s;
+}
+.container-03 .boton-01:active {
+  transform: rotate(360deg) translateX(250px);
+}
+
+.container-04 {
+  margin-top: 45px;
+  background-color: yellow;
+  height: 250px;
+}
+.container-04 h2 {
+  color: black;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+.container-04 .boton-01 {
+  background-image: linear-gradient(to bottom, green, red);
+  transform: scale(-1);
+}
+
+img {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  cursor: pointer;
+  transition: 1s;
+}
+img:hover {
+  transform: rotate(360deg) scale(2);
+}
+
+/*# sourceMappingURL=style.css.map */

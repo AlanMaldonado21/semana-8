@@ -1,0 +1,17 @@
+.container-04{
+    margin-top: 45px;
+    background-color: yellow;
+    height: 250px;
+    h2{
+        color: black;
+        font-size: 2rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .boton-01{
+    //    rotar elemento
+    background-image: linear-gradient(to bottom, green, red);
+    // transform scale
+    transform: scale(-1);
+    }
+}

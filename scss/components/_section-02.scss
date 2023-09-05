@@ -1,0 +1,17 @@
+.container-02{
+    background-color: blue;
+    height: 250px;
+    h2{
+        color: white;
+        font-size: 2rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .boton-01{
+        // transform
+        // transform: translate(x,y);
+        // transform: translateX(250px);
+        // transform: translateY(50px);
+        transform: translate(250px, 100px);
+    }
+  
+}
