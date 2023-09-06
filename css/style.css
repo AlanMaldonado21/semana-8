@@ -99,6 +99,83 @@
   transform: scale(-1);
 }
 
+.container-05 {
+  margin-top: 45px;
+  background-color: red;
+  height: 250px;
+}
+.container-05 h2 {
+  color: black;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+.container-05 .boton-01 {
+  background-image: linear-gradient(to bottom, green, yellow);
+  transform: skewY(25deg);
+}
+
+.container-06 {
+  margin-top: 45px;
+  background-color: green;
+  height: 250px;
+}
+.container-06 h2 {
+  color: black;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  animation-name: opacidadDelTexto;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  text-align: center;
+}
+.container-06 .boton-01 {
+  animation-name: cambiarGradiente;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  text-align: center;
+}
+
+@keyframes cambiarGradiente {
+  0% {
+    background: #8ab134;
+    background: linear-gradient(120deg, #8ab134 8%, #e9cccf 56%);
+  }
+  50% {
+    background: #833ab4;
+    background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  }
+  75% {
+    background-color: red;
+  }
+  100% {
+    background: #3b4011;
+    background: linear-gradient(90deg, #3b4011 8%, #ff0070 79%);
+  }
+}
+@keyframes cambiarColores {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+@keyframes opacidadDelTexto {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 img {
   position: absolute;
   bottom: 10px;

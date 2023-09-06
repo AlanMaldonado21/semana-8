@@ -1,0 +1,18 @@
+.container-05{
+    margin-top: 45px;
+    background-color: red;
+    height: 250px;
+
+    h2{
+        color: black;
+        font-size: 2rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .boton-01{
+        //    rotar elemento
+        background-image: linear-gradient(to bottom, green, yellow);
+        // transform skew
+        transform: skewY(25deg);
+        }
+}
